@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #Load data file 
-file_path = 'Assignment_1/pima-indians-diabetes.xlsx'
+file_path = 'pima-indians-diabetes.xlsx'
 df = pd.read_excel(file_path)
 total_size = len(df)
 Not_diabetes_df = df[df['Outcome'] == 0]
